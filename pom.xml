@@ -42,6 +42,7 @@
 				<artifactId>maven-release-plugin</artifactId>
 				<configuration>
 					<goals>install</goals>
+					<autoVersionSubmodules>true</autoVersionSubmodules>
 				</configuration>
 			</plugin>
 		</plugins>
@@ -49,8 +50,8 @@
 
 	<scm>
 		<developerConnection>scm:git:git@github.com:azhar-azad/azad-pet-clinic.git</developerConnection>
-	  <!-- <tag>azad-pet-clinic-0.0.1</tag> -->
-	  <tag>HEAD</tag>
+	   <tag>azad-pet-clinic-0.0.1</tag>
+	  <!-- <tag>HEAD</tag> -->
   </scm>
 
 </project>
