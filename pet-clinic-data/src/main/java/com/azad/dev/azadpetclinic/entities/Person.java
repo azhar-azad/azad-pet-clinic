@@ -1,6 +1,6 @@
 package com.azad.dev.azadpetclinic.entities;
 
-public class Person {
+public class Person extends BaseEntity {
 
 	private String firstName;
 	private String lastName;

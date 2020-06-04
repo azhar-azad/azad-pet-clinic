@@ -1,6 +1,6 @@
 package com.azad.dev.azadpetclinic.entities;
 
-public class PetType {
+public class PetType extends BaseEntity {
 
 	private String name;
 
